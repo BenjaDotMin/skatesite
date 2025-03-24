@@ -197,5 +197,12 @@
 
 
 //DEPLOY
-//using vsCode UI
-//in src control on left > under Changes, click the plus (to stage everything) >  type "Initial Commit" > commit
+//sign into github > new repo
+//copy lines from "…or push an existing repository from the command line":
+// git remote add origin https://github.com/BenjaDotMin/skatesite.git
+// git branch -M main
+// git push -u origin main
+
+//netlify
+//once repo is on github, use netlify of (vercel) to get online
+//new new site > import exisiting > github > select repo > deploy

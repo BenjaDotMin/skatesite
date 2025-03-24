@@ -33,7 +33,7 @@ type GLTFResult = GLTF & {
     Truck1: THREE.Mesh
     Truck2: THREE.Mesh
   }
-  materials: {}
+  materials: object
 }
 //this function was called Model by default, changed it it Skateboard
 export function Skateboard({pose="upright", constantWheelSpin=false, wheelTextureURLs, wheelTextureURL, deckTextureURLs, deckTextureURL, truckColour, boltColour}:SkateboardProps) {
@@ -104,7 +104,7 @@ export function Skateboard({pose="upright", constantWheelSpin=false, wheelTextur
             metalness: .8, 
             roughness: .25 //overall shiney level //lower = shiney
         })
-    , [truckColour]);
+    , [truckColour, metalNormal]);
 
 
 
