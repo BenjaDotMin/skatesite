@@ -1,0 +1,78 @@
+{
+  "id": "hero",
+  "type": "SharedSlice",
+  "name": "Hero",
+  "description": "Hero",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "body": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Body",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,strong,em"
+          }
+        },
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading1"
+          }
+        },
+        "button": {
+          "type": "Link",
+          "config": {
+            "label": "Button",
+            "placeholder": "",
+            "select": null,
+            "allowTargetBlank": true,
+            "allowText": true,
+            "repeat": false
+          }
+        },
+        "skateboard_deck_texture": {
+          "type": "Image",
+          "config": {
+            "label": "Skateboard deck texture",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "skateboard_wheel_texture": {
+          "type": "Image",
+          "config": {
+            "label": "Skateboard wheel texture",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "skateboard_truck_colour": {
+          "type": "Color",
+          "config": {
+            "label": "Skateboard truck colour",
+            "placeholder": ""
+          }
+        },
+        "skateboard_bolt_color": {
+          "type": "Color",
+          "config": {
+            "label": "Skateboard bolt colour",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
