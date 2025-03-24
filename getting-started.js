@@ -202,7 +202,15 @@
 // git remote add origin https://github.com/BenjaDotMin/skatesite.git
 // git branch -M main
 // git push -u origin main
+//now for any changes, just commit and its connected to github
+
 
 //netlify
 //once repo is on github, use netlify of (vercel) to get online
 //new new site > import exisiting > github > select repo > deploy
+
+
+//update prismic preview site
+//in prismic site > click any item > top right click 3 dots > live preview settings > paste in new url
+//in prismic site > bottom left click "Settings" > preview on left > change Site Name to Production > domain to new url > Preview route to /api/preview
+//webhooks: https://youtu.be/LBOhVng5rk8?si=3TNuyFrqiHnwQYsN&t=34143
